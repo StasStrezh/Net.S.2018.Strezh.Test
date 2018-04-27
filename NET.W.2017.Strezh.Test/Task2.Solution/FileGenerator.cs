@@ -25,7 +25,7 @@ namespace Task_2
                 this.WriteBytesToFile(generatedFileName, generatedFileContent);
             }
         }
-        private void WriteBytesToFile(string fileName, byte[] content)
+        public void WriteBytesToFile(string fileName, byte[] content)
         {
             if (!Directory.Exists(WorkingDirectory))
             {
